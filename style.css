@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+#header-name{
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Rubik Mono One', sans-serif;
+    letter-spacing: 10px;
+}   
+#job-title{
+    color: rgb(142, 141, 141);
+font-weight:300;
+margin-bottom: 10px;
+}
+nav>a{
+    color:rgb(142, 141, 141) ;
+    text-decoration: none;
+    margin: 0px 25px;
+    transition: 0.5s all linear;
+}
+nav>a:hover{
+    border-bottom: 2px solid black;
+scale: 1.2;
+color: black;
+}
+nav>a:active{
+    color: purple;
+}
+
+
+
+@media screen and (max-width:768px) {
+    #header-name{
+        letter-spacing: 2px;
+    }
+}
