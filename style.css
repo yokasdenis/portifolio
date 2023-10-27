@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-
+body{
+    background-image: linear-gradient(white,white,lightgrey);
+    height: 800px;
+}
 #header-name{
     font-size: large;
     font-weight: bolder;
@@ -11,22 +14,16 @@
 font-weight:300;
 margin-bottom: 10px;
 }
-nav>a{
-    color:rgb(142, 141, 141) ;
+.nav_link{
+    color:darkgray ;
     text-decoration: none;
     margin: 0px 25px;
-    transition: 0.5s all linear;
+    transition: all ease 0.3s;
 }
-nav>a:hover{
-    border-bottom: 2px solid black;
-scale: 1.2;
-color: black;
+.nav_link:hover{
+    border-bottom: 3px solid darkgray;
+    scale: 1.2;
 }
-nav>a:active{
-    color: purple;
-}
-
-
 
 @media screen and (max-width:768px) {
     #header-name{
